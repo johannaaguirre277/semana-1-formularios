@@ -51,6 +51,38 @@
       <br>
       <button type="submit">Guardar y continuar</button>
       </div>
+      <br><hr><br>
+      <!---dia 2:informaciion oprativa y archivos-->
+      <div>
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+          <input
+          type="date"
+          id="fecha_nacimiento"
+          name="fecha_nacimiento"
+          >
+      </div>
+      <br><br>
+      <div>
+        <label for="presupuesto">Presupuesto estimado ($1,000 - $10,000):</label>
+        <input
+        type="rango"
+        id="presupuesto"
+        name="presupuesto"
+        min="1000"
+        max="10000"
+        step="500">
+      </div>
+      <br>
+      <div>
+        <label for="color_marca"></label>
+        <input 
+        type="color"
+        id="color_marca"
+        name="color_marca"
+        value="#3b82f6">
+      </div>
+      <br>
+      <button type="submit">Enviar</button>
     </section>
 </body>
 </html>
